@@ -1,0 +1,305 @@
+{
+  "introduction": "/assets/media/videos/introduction.mp4",
+  "background": "/assets/media/audios/background.wav",
+  "characters": [
+    {
+      "id": "drmoon",
+      "name": "Dr Moon",
+      "image": {
+        "source": "/assets/media/images/characters/drmoon.png",
+        "alt": "Dr Moon"
+      },
+      "type": "TEACHER"
+    },
+    {
+      "id": "dregg",
+      "name": "Dr Egg",
+      "image": {
+        "source": "/assets/media/images/characters/dregg.png",
+        "alt": "Dr Egg"
+      },
+      "type": "TEACHER"
+    },
+    {
+      "id": "ardash",
+      "name": "Ardash",
+      "image": {
+        "source": "/assets/media/images/characters/ardash.png",
+        "alt": "Ardash"
+      },
+      "portrait": {
+        "source": "/assets/media/images/characters/ardash_portrait.png",
+        "alt": "Ardash portrait"
+      },
+      "type": "STUDENT",
+      "quote": "I’m almost perfect!",
+      "description": "Hi! I’m Ardash and my mum thinks I’m almost perfect. I don’t have a belly button, just like all the other kids who live in Techno World. I’m totally plugged in, with super eyesight and all sorts of amazing techno gadgets that help me gather data about important things, like how to cure diseases. Lucky I’m genetically modified so I never get sick.",
+      "audio": "/assets/media/audios/ardash_intro.wav",
+      "questions": [
+        {
+          "text": "About Me",
+          "answer": ""
+        },
+        {
+          "text": "Which world am I from?",
+          "answer": ""
+        },
+        {
+          "text": "What are my tools?",
+          "answer": ""
+        },
+        {
+          "text": "What is my investigation?",
+          "answer": ""
+        }
+      ],
+      "team": true
+    },
+    {
+      "id": "cornelia",
+      "name": "Cornelia",
+      "image": {
+        "source": "/assets/media/images/characters/cornelia.png",
+        "alt": "Cornelia"
+      },
+      "portrait": {
+        "source": "/assets/media/images/characters/cornelia_portrait.png",
+        "alt": "Cornelia portrait"
+      },
+      "type": "STUDENT",
+      "quote": "I just love anything to do with nature",
+      "description": "Hi I’m Cornelia, and my best friend is my pet mouse Carlin. I live in the corn farmlands, and I just love anything to do with nature. I can talk to animals, they love it when I play my special violin. With help from my magic corn I am going to liberate the world’s food from Professor Mole’s evil control.",
+      "audio": "/assets/media/audios/cornelia_intro.wav",
+      "questions": [
+        {
+          "text": "About Me",
+          "answer": ""
+        },
+        {
+          "text": "Which world am I from?",
+          "answer": ""
+        },
+        {
+          "text": "What are my tools?",
+          "answer": ""
+        },
+        {
+          "text": "What is my investigation?",
+          "answer": ""
+        }
+      ],
+      "team": true
+    },
+    {
+      "id": "vivi",
+      "name": "Vivi",
+      "image": {
+        "source": "/assets/media/images/characters/vivi.png",
+        "alt": "Vivi"
+      },
+      "portrait": {
+        "source": "/assets/media/images/characters/vivi_portrait.png",
+        "alt": "Vivi portrait"
+      },
+      "type": "STUDENT",
+      "quote": " I’m a do-a-lot with not-a-lot kinda girl.",
+      "description": "Hi! I’m Vivi and I’m a do-a-lot with not-a-lot kinda girl. I live in Slum World, and my thing is recycling allthe junk people throw away. I can fix anything thanks to my super cool goggles and home-made toolkit full of all sorts of excellent gadgets.",
+      "audio": "/assets/media/audios/vivi_intro.wav",
+      "questions": [
+        {
+          "text": "About Me",
+          "answer": ""
+        },
+        {
+          "text": "Which world am I from?",
+          "answer": ""
+        },
+        {
+          "text": "What are my tools?",
+          "answer": ""
+        },
+        {
+          "text": "What is my investigation?",
+          "answer": ""
+        }
+      ],
+      "team": true
+    }
+  ],
+  "tools": [
+    {
+      "id": "goggle",
+      "name": "Goggle",
+      "image": {
+        "source": "/assets/media/images/tools/goggle.png",
+        "alt": "Goggle",
+        "selected": "/assets/media/images/tools/goggle_highlight.png",
+        "empty": "/assets/media/images/tools/goggle_empty.png"
+      },
+      "parts": [
+        {
+          "text": "Magnify: Observe an object up close",
+          "top": "4rem",
+          "right": "9.5rem"
+        }
+      ],
+      "description": "Vivi’s Goggles can see close up of the seeds sprouting, may be useful for observation. Observe minute changes (acts as magnifying glass.) analyses objects and distance, has a measuring tool to provide mass, weight and length.",
+      "characteristics": "Distance, length, weight, mass and capacity",
+      "link": "https://blog.fonepaw.com/tape-measure-app-iphone-android.html"
+    },
+    {
+      "id": "toolbelt",
+      "name": "Tool belt",
+      "image": {
+        "source": "/assets/media/images/tools/toolbelt.png",
+        "alt": "Tool belt",
+        "selected": "/assets/media/images/tools/toolbelt_highlight.png",
+        "empty": "/assets/media/images/tools/toolbelt_empty.png"
+      },
+      "description": "Vivi's toolbelt has lots of gadgets for making things. She has invented a firestarter, a ratchet spanner, different thinkness of wire (like Allum keys), all from the bits and pieces she finds in the Slum-lanes rubbish dump.",
+      "characteristics": "For making things. Has a firestarter, ratchet spanner, different thinkness of wire (like Allum keys)",
+      "link": "https://www.youtube.com"
+    },
+    {
+      "id": "teletube",
+      "name": "TeleTube",
+      "image": {
+        "source": "/assets/media/images/tools/teletube.png",
+        "alt": "Tele Tube",
+        "selected": "/assets/media/images/tools/teletube_highlight.png",
+        "empty": "/assets/media/images/tools/teletube_empty.png"
+      },
+      "description": "Ardash's teletube scope can see as far as the Corn-farmlands and Slum lanes. It can change depth of focus, to recognize childrens faces and help with visual recognition. It helps measure distances for mapping.",
+      "characteristics": "Recognizes children from corn farms and slum lanes. Can change depth of focus.",
+      "link": "https://www.youtube.com"
+    },
+    {
+      "id": "hoverboard",
+      "name": "Hover Board",
+      "image": {
+        "source": "/assets/media/images/tools/hoverboard.png",
+        "selected": "/assets/media/images/tools/hoverboard_highlight.png",
+        "empty": "/assets/media/images/tools/hoverboard_empty.png",
+        "alt": "Hover Board"
+      },
+      "parts": [
+        {
+          "text": "Camera: Record and collect data",
+          "top": "3.4rem",
+          "right": "20.9rem"
+        },
+        {
+          "text": "Engine: Powerful an fast",
+          "top": "7rem",
+          "right": "7rem"
+        }
+      ],
+      "description": "Ardash's hover-board collects data as it hovers around Slum lanes and Techno Towers, what can you see; cars? shops?",
+      "characteristics": "Collecting data, Identifying tools for collecting data",
+      "link": "https://www.youtube.com"
+    },
+    {
+      "id": "wristgadget",
+      "name": "Wrist Gadget",
+      "image": {
+        "source": "/assets/media/images/tools/wristgadget.png",
+        "alt": "Wrist Gadget",
+        "selected": "/assets/media/images/tools/wristgadget_highlight.png",
+        "empty": "/assets/media/images/tools/wristgadget_empty.png"
+      },
+      "description": "Perferendis consequatur quas. Et placeat ex excepturi debitis sed. Eum temporibus maiores. Illo quis quidem enim sed amet. Vitae vel quisquam laboriosam enim harum rerum sit aut ad. Eum quo quia nostrum est.",
+      "characteristics": "Cumque non officia modi. Animi qui ad ipsam facere sequi. Qui ad ex blanditiis necessitatibus nostrum atque corporis dolores. Id accusamus alias quod ex laboriosam inventore. Est soluta et in quia optio.",
+      "link": "https://www.youtube.com"
+    }
+  ],
+  "conversation": [
+    {
+      "character": "drmoon",
+      "actions": ["offscreenLeft", "left"]
+    },
+    {
+      "character": "dregg",
+      "actions": ["offscreenRight", "right"]
+    },
+    {
+      "character": "drmoon",
+      "text": "Hi! I’m Dr Cecilia Moon and I work in the Egg laboratories with my twin brother Dr Egg! I love knitting up all sorts of inventions, like wriggly fingers and tiny toes!",
+      "audio": "/assets/media/audios/drmoon_intro_1.mp3"
+    },
+    {
+      "character": "drmoon",
+      "text": "I always carry some yarn in my pockets ...and knitting needles in my hair, just in case! Dr Egg and I dream of making unique discoveries together in the Lab!",
+      "audio": "/assets/media/audios/drmoon_intro_2.mp3"
+    },
+    {
+      "character": "drmoon",
+      "text": "I am hatching a miraculous egg in our incubator, powered by my trusty bike! We never know what we’ll hatch! One thing’s for sure... life is never dull in the Dr Egg Laboratories!",
+      "audio": "/assets/media/audios/drmoon_intro_3.mp3"
+    },
+    {
+      "character": "dregg",
+      "text": "Hi I’m Dr Egg! I work with my twin sister Dr Moon at the Egg Laboratories. I love concentrating on the tiny things in life, the seeds, the puffballs and tiny spores that take flight! Dr Moon and I are always creating miraculous new inventions.",
+      "audio": "/assets/media/audios/dregg_intro_1.mp3"
+    },
+    {
+      "character": "dregg",
+      "text": "I’ve already made a square tomato and a flying egg spy and a glow in the dark chooks bum! What’s next? Come and join us in the laboratory to find out! See you there!",
+      "audio": "/assets/media/audios/dregg_intro_2.mp3"
+    },
+    {
+      "character": "dregg",
+      "text": "But remember to be careful! On the pathway to invention, there’ll always be mistakes!",
+      "audio": "/assets/media/audios/dregg_intro_3.mp3"
+    },
+    {
+      "character": "dregg",
+      "text": "To start your adventure today, select a chapter to continue and meet our Eggspert Kid Deteggtives"
+    }
+  ],
+  "hints": [
+    {
+      "path": "/portal",
+      "text": "Hello World!"
+    }
+  ],
+  "chapters": [
+    {
+      "enabled": true,
+      "name": "Chapter One",
+      "characters": ["drmoon", "dregg", "ardash", "vivi", "cornelia"],
+      "tools": ["goggle", "teletube", "hoverboard", "toolbelt", "wristgadget"],
+      "image": {
+        "source": "/assets/media/images/buttons/chapter_one.png",
+        "alt": "Chapter one"
+      },
+      "teacher_notes": "https://www.youtube.com",
+      "student_notes": "https://www.youtube.com",
+      "animation": [
+        {
+          "id": "part_one",
+          "name": "Part one",
+          "video": "/assets/media/videos/episode_one/animation_one.mp4",
+          "description": "Part one"
+        },
+        {
+          "id": "part_two",
+          "name": "Part two",
+          "video": "/assets/media/videos/episode_one/animation_two.mp4",
+          "description": "Part two"
+        },
+        {
+          "id": "part_three",
+          "name": "Part three",
+          "video": "/assets/media/videos/episode_one/animation_three.mp4",
+          "description": "Part three"
+        },
+        {
+          "id": "part_four",
+          "name": "Part four",
+          "video": "/assets/media/videos/episode_one/animation_four.mp4",
+          "description": "Part four"
+        }
+      ]
+    }
+  ]
+}
